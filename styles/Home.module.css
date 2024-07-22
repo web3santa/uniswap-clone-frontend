@@ -16,7 +16,7 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #fff;
   justify-content: center;
   align-items: center;
 }
@@ -70,7 +70,7 @@
   text-align: left;
   color: inherit;
   text-decoration: none;
-  border: 1px solid #eaeaea;
+  border: 1px solid #9b0101;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 350px;
@@ -98,5 +98,88 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+
+.HeroSection {
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.HeroSection_box{
+  margin-top: 5rem;
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: .5rem;
+  width: 30rem;
+}
+
+.HeroSection_box_heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.HeroSection_box_input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #fff;
+  border-radius: .5rem;
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+
+.HeroSection_box_input input {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: #5ff8e3;
+  font-size: 1.2rem;
+}
+
+.HeroSection_box_input button{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1.5rem;
+  line-height: 0;
+  background-color: #777373;
+  padding: 1.5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: .5rem;
+}
+
+.HeroSection_box_btn {
+  background-color: #3538ff;
+  border: 0;
+  outline: 0;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 35em) {
+  .HeroSection{
+      width: 95%;
+  }
+
+  .HeroSection_box{
+      width: 95%;
+
+  }
+
+  .HeroSection_box_input input{
+      width: 50%;
+
   }
 }

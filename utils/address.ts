@@ -1,0 +1,8 @@
+
+export const RouterAddress = "0xE13bD863B25b3423900715B2869cBE9c347241339";
+export const FactoryAddress = "0x3b5Fa60B5205642CcC75DB2eA3448590Bf09D7D5c";
+export const FarmAddress = "0xb36f8f067B6B5D922377d6E0027608590ebeE505F";
+export const WETHAddress = "0x3Eb94f2D5187CD2295947c472531311e5E8cD45F6";
+export const TokenA_Addreess = "0x472f3A18B28a5766D3b0708b5F21547aeF42762Dc";
+export const TokenB_Address = "0x242E2BdEFd26fE472A2B5968D6C1b9aFdc8849e684";
+export const Pair_A_B_Address = "0xb8a10322d79d75211AC6E7779B2883BB540F5DF03";

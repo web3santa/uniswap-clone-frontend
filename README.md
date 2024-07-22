@@ -1,29 +1,16 @@
-This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](/packages/create-rainbowkit).
+Deployer address: 0x6109335D798f33B0dB045cB30C31e2C3D87cA31a
+Gas refund address: 0x6109335D798f33B0dB045cB30C31e2C3D87cA31a
+WETH address: 0xAE6d1AA0FC728a113CA3e2a678e8c4B36a4dc1fF
+BlasterswapV2Factory deployed to: 0xCD89dA41beDF8b70D4b0dD90253AE07048f36c30
+BlasterswapV2Router02 deployed to: 0xa9B32dEaE24eBda6315A74C0f8b8081729c2eE5F
 
-## Getting Started
+You can mint erc20A, erc20B, WETH using mint function on each contract
+A token address:  0xaeCA9d5194008e9606119EF9cf7d50515234b68D
+B token address:  0x40CF462A2945A85ACd091132157dD803f28F8d53
+C token address:  0x8f186614bC22Aff61c1AE7dB86f6beBA3Aea5944
+D token address:  0x65799a566aF51227D43636e6ce37421865e83D41
+AB Pair:  0x581EEA0a2279b6e035B60aBD84315518329f56A8
+BC Pair:  0x0E00ce79e04aAA781C3054559f229b4868459F17
+CD Pair:  0x58172Fbf2456A1c480E0B47c11cE821D7075bc73
+ETHA Pair:  0xe1532c600473967CCfdE0270DfB3227d83A7AF04
 
-First, run the development server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about this stack, take a look at the following resources:
-
-- [RainbowKit Documentation](https://rainbowkit.com) - Learn how to customize your wallet connection flow.
-- [wagmi Documentation](https://wagmi.sh) - Learn how to interact with Ethereum.
-- [Next.js Documentation](https://nextjs.org/docs) - Learn how to build a Next.js application.
-
-You can check out [the RainbowKit GitHub repository](https://github.com/rainbow-me/rainbowkit) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
